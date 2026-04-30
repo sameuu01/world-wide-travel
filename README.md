@@ -15,15 +15,18 @@ O **World Wide Travel** é um projeto que visa ter interfaces limpas e modernas 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
 Linguagem:
+-
 - HTML
 - CSS
 - JavaScript  
 - Mysql
 - Node
 - React e muito mais
--Framework:
+- 
+Framework:
 - React
 - Node.js
+- 
 -Banco de dados:
 - Mysql 
 ---
