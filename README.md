@@ -21,9 +21,9 @@ Linguagem:
 - Mysql
 - Node
 - React e muito mais
-Framework:
+-Framework:
 - React
 - Node.js
-Banco de dados:
+-Banco de dados:
 - Mysql 
 ---
