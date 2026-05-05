@@ -1,17 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 body {
-   background-color:beige;
-   margin: 0;
+    background-color: beige;
 }
-.topo {
-  width: 100%;
-  height: 80px;
-  background-color: rgb(255, 85, 85);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+header {
+    /*Tamanho altura*/
+    height: 100px;
+    background: rgb(255, 88, 88);
+    /* COR DE TEXTO */
+    color: beige;
+    /*FlexBox*/
+    display: flex;
+    border-bottom: 1px solid orange;
 }
-.topo h1 {
-    color: darkslategray;
-    font-style: italic;
-    text-align: center;
+
+.contentHeader {
+    margin: 0 auto;
+    /*largura*/
+    max-width: 1000px;
+    width: 100%;
+ /*FlexBox*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 20px;
+}
+
+header nav ul{
+    display: flex
+}
+header nav ul a {
+    color: beige;
+    text-decoration: none;
+    font-size: 18px;
+    font-size: 20px;
+    padding: 20px;
+}
+header nav ul a:hover {
+    text-decoration: underline;
+    color: orange;
 }
