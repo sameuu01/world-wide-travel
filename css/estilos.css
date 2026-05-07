@@ -48,3 +48,14 @@ header nav ul a:hover {
     text-decoration: underline;
     color: orange;
 }
+
+.carousel article {
+    margin-top: 20px;
+    text-align: center;
+}
+.carousel img {
+    border-radius: 10px;
+    width: 80%;
+    height: 350px;
+}
+
