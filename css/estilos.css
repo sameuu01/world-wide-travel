@@ -59,3 +59,15 @@ header nav ul a:hover {
     height: 350px;
 }
 
+footer {
+    color: #8d4925;
+    text-align: end;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.paginaContato h1 {
+    color: #191970;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
