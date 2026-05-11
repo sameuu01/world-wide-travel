@@ -66,8 +66,54 @@ footer {
     margin-bottom: 20px;
 }
 
-.paginaContato h1 {
+.paginaSuporte h1 {
     color: #191970;
     padding-top: 10px;
     margin-bottom: 20px;
+}
+.menu-container{
+    position: relative;
+    display: inline-block;
+}
+
+.vellip{
+    font-size: 27px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: beige;
+    padding-left: 20px;
+}
+.vellip:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.menu{
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+
+    background: beige;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    min-width: 150px;
+    overflow: hidden;
+}
+
+.menu a{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    background: rgba(236, 236, 193, 0.808);
+}
+
+.menu.show{
+    display: block;
 }

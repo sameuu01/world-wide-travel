@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="menu.js"></script>
 </head>
 <body>
     <div>
@@ -14,7 +15,16 @@
 				<nav>
                   <ul>
                      <li><a href="index.html">Home</a></li>
-                     <li><a href="sobre.html">Sobre</a></li>
+                     <div class="menu-container">
+    <button class="vellip" onclick="abrirMenu()">
+        ⋮
+    </button>
+
+    <div class="menu" id="menu">
+        <a href="produtos.html">Produtos</a>
+        <a href="sobre.html">Sobre</a>
+    </div>
+</div>
                   </ul>
                 </nav>
         </section>

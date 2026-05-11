@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>world-wide-travel</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="menu.js"></script>
 </head>
 
 <body>
@@ -17,8 +18,21 @@
                 <h1>World Wide Travel</h1>
 				<nav>
                   <ul>
-                     <li><a href="contato.html">Contato</a></li>
-                     <li><a href="sobre.html">&vellip;</a></li>
+                     <div class="menu-container">
+    <button class="vellip" onclick="abrirMenu()">
+        ⋮
+    </button>
+
+    <div class="menu" id="menu">
+        <a href="#">Produtos</a>
+        <a href="suporte.html">Suporte</a>
+        <a href="#">Sobre</a>
+    </div>
+</div>
+
+<script>
+
+</script>
                   </ul>
                 </nav>
          </section>
