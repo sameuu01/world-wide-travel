@@ -41,7 +41,7 @@ header nav ul a {
     color: beige;
     text-decoration: none;
     font-size: 18px;
-    font-size: 20px;
+    font-size: 25px;
     padding: 20px;
 }
 header nav ul a:hover {
@@ -66,7 +66,7 @@ footer {
     margin-bottom: 20px;
 }
 
-.paginaSuporte h1 {
+.paginaLogin h1 {
     color: #191970;
     padding-top: 10px;
     margin-bottom: 20px;
@@ -116,4 +116,45 @@ footer {
 
 .menu.show{
     display: block;
+}
+
+/* Formulário */
+form {
+    background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+}
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  
+}
+
+form label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input,
+form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(39, 39, 234);
+  color: white;
+  cursor: pointer;
+}
+
+.cadastro {
+    text-decoration: none;
+    color: #191970;
+    padding-left: 53px;
 }
