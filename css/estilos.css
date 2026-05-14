@@ -70,6 +70,7 @@ footer {
     color: #191970;
     padding-top: 10px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .menu-container{
     position: relative;
@@ -124,6 +125,7 @@ form {
   padding: 30px;
   border-radius: 12px;
   width: 350px;
+  margin: 0 auto;
 }
 form .form-group {
   display: flex;
@@ -153,8 +155,3 @@ form button {
   cursor: pointer;
 }
 
-.cadastro {
-    text-decoration: none;
-    color: #191970;
-    padding-left: 53px;
-}
