@@ -159,7 +159,7 @@ form button {
   cursor: pointer;
 }
 
-/* card do carousel */
+/* CARD DO CAROUSEL */
 
 .travel-card{
     position: relative;
@@ -186,6 +186,7 @@ form button {
 
     transition: 0.4s;
 }
+
 .overlay{
     position: absolute;
     inset: 0;
@@ -199,8 +200,6 @@ form button {
 
     transition: 0.4s;
 }
-
-/* Título */
 
 .overlay h2{
     color: white;
