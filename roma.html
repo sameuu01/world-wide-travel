@@ -1,27 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <link rel="stylesheet" href="css/interface.css">
+    <title>Roma</title>
+
+    <link rel="stylesheet" href="css/roma.css">
+
     <script src="./js/menu.js"></script>
 </head>
-<body>
-    <div>
-     <header>
-        <section class="contentHeader">
-            <h1>World Wide Travel</h1>
-				<nav>
-                  <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <div class="menu-container">
-    <button class="vellip" onclick="abrirMenu()">
-        ⋮
-    </button>
 
-    <div class="menu" id="menu">
-        <a href="produtos.html">Produtos</a>
-        <a href="login.html">Login</a>
-        <a href="sobre.html">Sobre</a>
-    </div>
+<body>
+
+    <header>
+
+        <section class="contentHeader">
+
+            <h1>World Wide Travel</h1>
+
+            <nav>
+                <ul>
+
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <div class="menu-container">
+
+                        <button class="vellip" onclick="abrirMenu()">
+                            ⋮
+                        </button>
+
+                        <div class="menu" id="menu">
+                            <a href="produtos.html">Produtos</a>
+                            <a href="login.html">Login</a>
+                            <a href="sobre.html">Sobre</a>
+                        </div>
+
+                    </div>
+
+                </ul>
+            </nav>
+
+        </section>
+
+    </header>
+
+    <!-- CARDS -->
+    <section class="roma-cards">
+
+        <a href="coliseu.html" class="roma-card">
+            <img src="coliseu-card.jpg" alt="Coliseu">
+
+            <div class="roma-info">
+                <h2>Coliseu</h2>
+                <p>Clique para explorar</p>
+            </div>
+        </a>
+
+        <a href="trevi.html" class="roma-card">
+            <img src="fontana-card.jpg" alt="Trevi">
+
+            <div class="roma-info">
+                <h2>Fontana di Trevi</h2>
+                <p>Clique para explorar</p>
+            </div>
+        </a>
+
+        <a href="panteao.html" class="roma-card">
+            <img src="vaticano-card.jpg" alt="Panteão">
+
+            <div class="roma-info">
+                <h2>Panteão</h2>
+                <p>Clique para explorar</p>
+            </div>
+        </a>
+
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>@ 2026 MC Máquinas</p>
+    </footer>
+
+</body>
+</html>
