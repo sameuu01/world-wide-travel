@@ -183,9 +183,8 @@ footer {
     font-size: 16px;
 }
 
-/* HOVER */
 .roma-card:hover {
-    transform: scale(1.03);
+    transform: translateY(-5px);
 }
 
 /* RESPONSIVO */
@@ -193,4 +192,23 @@ footer {
     .roma-cards {
         grid-template-columns: 1fr;
     }
+}
+
+header{
+    position: relative;
+    z-index: 9999;
+}
+
+.menu{
+    z-index: 10000;
+}
+
+.roma-cards{
+    position: relative;
+    z-index: 1;
+}
+
+.roma-card{
+    position: relative;
+    z-index: 1;
 }
