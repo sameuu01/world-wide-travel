@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    height: 100px;
+    background: rgb(255, 88, 88);
+
+    color: beige;
+
+    display: flex;
+
+    border-bottom: 1px solid orange;
+
+    position: relative;
+    z-index: 9999;
+}
+
+.contentHeader {
+    margin: 0 auto;
+
+    max-width: 1000px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 20px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul a {
+    color: beige;
+    text-decoration: none;
+
+    font-size: 25px;
+
+    padding: 20px;
+}
+
+header nav ul a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+/* MENU */
+
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+.vellip {
+    font-size: 27px;
+    cursor: pointer;
+
+    border: none;
+    background: none;
+
+    color: beige;
+
+    padding-left: 20px;
+}
+
+.vellip:hover {
+    color: orange;
+}
+
+.menu {
+    display: none;
+
+    position: absolute;
+
+    top: 40px;
+    right: 0;
+
+    background: beige;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    min-width: 150px;
+
+    overflow: hidden;
+
+    z-index: 10000;
+}
+
+.menu a {
+    display: block;
+
+    padding: 12px;
+
+    text-decoration: none;
+
+    color: black;
+}
+
+.menu a:hover {
+    background: rgba(236, 236, 193, 0.808);
+}
+
+.menu.show {
+    display: block;
+}
+
+/* hero */
+
+.hero {
+    height: 500px;
+
+    background-image: url("https://images.unsplash.com/photo-1552832230-c0197dd311b5");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    color: white;
+
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0,0,0,0.45);
+}
+
+.hero h1,
+.hero p {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 22px;
+}
+
+/* História */
+
+.historia {
+    max-width: 900px;
+
+    margin: 80px auto;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+.historia h2 {
+    font-size: 40px;
+
+    color: #7B1E1E;
+
+    margin-bottom: 20px;
+}
+
+.historia p {
+    font-size: 20px;
+
+    line-height: 1.8;
+
+    color: #444;
+}
+
+/* cards */
+
+.roma-cards {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 60px auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+    padding: 20px;
+}
+
+.roma-card {
+    height: 400px;
+
+    position: relative;
+
+    overflow: hidden;
+    border-radius: 20px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+    transition: transform 0.3s ease;
+}
+
+/* IMAGEM */
+
+.roma-card img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+/* ESCURECIMENTO */
+
+.roma-card::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0,0,0,0.35);
+}
+
+/* TEXTO */
+
+.roma-info {
+    position: absolute;
+
+    bottom: 20px;
+    left: 20px;
+
+    color: white;
+
+    z-index: 2;
+}
+
+.roma-info h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.roma-info p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* HOVER */
+
+.roma-card:hover {
+    transform: translateY(-5px);
+}
+footer {
+    font-family: italic;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    color: #8d4925;
+    padding: 15px;
+
+    background: beige; 
+}
+
+@media (max-width: 900px) {
+
+    .roma-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+}
