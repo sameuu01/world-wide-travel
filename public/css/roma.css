@@ -9,7 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HEADER */
+/* HEADer */
 
 header {
     height: 100px;
@@ -58,7 +58,7 @@ header nav ul a:hover {
     color: orange;
 }
 
-/* MENU */
+/* Menu */
 
 .menu-container {
     position: relative;
