@@ -19,12 +19,9 @@ Linguagem:
 - HTML
 - CSS
 - JavaScript  
-- Mysql
 - Node
-- React e muito mais
  
 Framework:
-- React
 - Node.js
  
 Banco de dados:
