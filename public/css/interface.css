@@ -71,7 +71,7 @@ footer {
 }
 
 .paginaLogin h1 {
-    color: #191970;
+    color: rgb(255, 88, 88);
     padding-top: 10px;
     margin-bottom: 20px;
     text-align: center;
@@ -126,7 +126,7 @@ footer {
 
 /* Formulário */
 form {
-    background-color: #fff;
+  background: rgb(230, 226, 191);
   padding: 30px;
   border-radius: 12px;
   width: 350px;
@@ -155,7 +155,7 @@ form button {
   padding: 12px;
   border: none;
   border-radius: 8px;
-  background-color: rgb(39, 39, 234);
+  background-color: rgb(255, 88, 88);
   color: white;
   cursor: pointer;
 }
@@ -242,4 +242,10 @@ header{
 
 .travel-card{
     z-index: 1;
+}
+
+.cadastro {
+    text-decoration: none;
+    color: rgb(255, 88, 88);
+    padding-left: 45px;
 }
