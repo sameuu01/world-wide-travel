@@ -14,23 +14,17 @@ body {
 header {
     height: 100px;
     background: rgb(255, 88, 88);
-
     color: beige;
-
     display: flex;
-
     border-bottom: 1px solid orange;
-
     position: relative;
     z-index: 9999;
 }
 
 .contentHeader {
     margin: 0 auto;
-
     max-width: 1000px;
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,9 +41,7 @@ header nav ul {
 header nav ul a {
     color: beige;
     text-decoration: none;
-
     font-size: 25px;
-
     padding: 20px;
 }
 
@@ -68,12 +60,9 @@ header nav ul a:hover {
 .vellip {
     font-size: 27px;
     cursor: pointer;
-
     border: none;
     background: none;
-
     color: beige;
-
     padding-left: 20px;
 }
 
@@ -83,32 +72,21 @@ header nav ul a:hover {
 
 .menu {
     display: none;
-
     position: absolute;
-
     top: 40px;
     right: 0;
-
     background: beige;
-
     border-radius: 10px;
-
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-
     min-width: 150px;
-
     overflow: hidden;
-
     z-index: 10000;
 }
 
 .menu a {
     display: block;
-
     padding: 12px;
-
     text-decoration: none;
-
     color: black;
 }
 
@@ -128,17 +106,12 @@ header nav ul a:hover {
     background-image: url("https://images.unsplash.com/photo-1552832230-c0197dd311b5");
     background-size: cover;
     background-position: center;
-
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
-
     text-align: center;
-
     color: white;
-
     position: relative;
 }
 
@@ -172,17 +145,12 @@ header nav ul a:hover {
     background-image: url(https://imaginanaviagem.com/wp-content/uploads/2015/11/Fontana-di-Trevi-Dollar.jpg);
     background-size: cover;
     background-position: center;
-
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
-
     text-align: center;
-
     color: white;
-
     position: relative;
 }
 
@@ -216,17 +184,12 @@ header nav ul a:hover {
     background-image: url(https://aventurasnahistoria.com.br/wp-content/uploads/2025/07/design-sem-nome-2025-07-03t092052439.jpg);
     background-size: cover;
     background-position: center;
-
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
-
     text-align: center;
-
     color: white;
-
     position: relative;
 }
 
