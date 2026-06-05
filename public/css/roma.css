@@ -315,13 +315,10 @@ header nav ul a:hover {
 
 footer {
     font-family: italic;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-
+    text-align: right;
+    padding: 20px;
     color: #8d4925;
     padding: 15px;
-
     background: beige; 
 }
 
