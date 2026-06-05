@@ -359,6 +359,7 @@ header{
 .texto-sobre{
     flex: 1;
     min-width: 320px;
+    color: gray;
 }
 
 .texto-sobre h2{
